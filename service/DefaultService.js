@@ -173,6 +173,7 @@ exports.foodBrandedBarcode_phpGET = function(code) {
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
@@ -336,6 +337,7 @@ exports.foodBrandedBarcode_phpGET = function(code) {
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
@@ -522,6 +524,7 @@ exports.foodBrandedId_phpGET = function(id,source) {
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
@@ -685,6 +688,7 @@ exports.foodBrandedId_phpGET = function(id,source) {
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
@@ -871,6 +875,7 @@ exports.foodBrandedName_phpGET = function(name,limit) {
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
@@ -1034,6 +1039,7 @@ exports.foodBrandedName_phpGET = function(name,limit) {
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
@@ -1232,6 +1238,7 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
@@ -1395,6 +1402,7 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
       "fat_value" : 1.4894159098541704
     },
     "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
