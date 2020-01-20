@@ -1426,7 +1426,7 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
  * limit Integer Set maximum number of records you want the API to return.  ___Important Note:__ Setting this to \"1\" will return 1 record per search term._  __Example:__ 1 _(defaults to 1, max is 3)_  (optional)
  * returns IngredientObject
  **/
-exports.ingredientSearch_phpGET = function(find,list,raw,limit) {
+exports.foodIngredientSearch_phpGET = function(find,list,raw,limit) {
   return new Promise(function(resolve, reject) {
     var examples = {};
     examples['application/json'] = {

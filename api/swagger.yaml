@@ -446,14 +446,14 @@ paths:
       security:
       - ApiKeyAuth: []
       x-swagger-router-controller: Default
-  /ingredient/search.php:
+  /food/ingredient/search.php:
     get:
       summary: Get raw/generic food ingredient item(s)
       description: |
         # Get data for a specific ingredient or a specific set of ingredients.
 
         __Example:__ ```https://chompthis.com/api/v2/ingredient/search.php?api_key=API_KEY&find=STRING/LIST&list=BOOLEAN&raw=BOOLEAN```
-      operationId: ingredientSearch_phpGET
+      operationId: foodIngredientSearch_phpGET
       parameters:
       - name: find
         in: query
