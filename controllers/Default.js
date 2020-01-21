@@ -29,7 +29,8 @@ module.exports.foodBrandedId_phpGET = function foodBrandedId_phpGET (req, res, n
 module.exports.foodBrandedName_phpGET = function foodBrandedName_phpGET (req, res, next) {
   var name = req.swagger.params['name'].value;
   var limit = req.swagger.params['limit'].value;
-  Default.foodBrandedName_phpGET(name,limit)
+  var page = req.swagger.params['page'].value;
+  Default.foodBrandedName_phpGET(name,limit,page)
     .then(function (response) {
       utils.writeJson(res, response);
     })
