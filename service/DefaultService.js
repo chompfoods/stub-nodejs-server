@@ -130,7 +130,6 @@ exports.foodBrandedBarcode_phpGET = function(code) {
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
@@ -301,7 +300,6 @@ exports.foodBrandedBarcode_phpGET = function(code) {
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
@@ -495,7 +493,6 @@ exports.foodBrandedId_phpGET = function(id,source) {
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
@@ -666,7 +663,6 @@ exports.foodBrandedId_phpGET = function(id,source) {
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
@@ -861,7 +857,6 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
@@ -1032,7 +1027,6 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
@@ -1238,7 +1232,6 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
@@ -1409,7 +1402,6 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
       "chomp" : "chomp",
       "usda" : "usda"
     },
-    "common_names" : [ "common_names", "common_names" ],
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
