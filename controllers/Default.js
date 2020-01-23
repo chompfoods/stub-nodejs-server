@@ -14,18 +14,6 @@ module.exports.foodBrandedBarcode_phpGET = function foodBrandedBarcode_phpGET (r
     });
 };
 
-module.exports.foodBrandedId_phpGET = function foodBrandedId_phpGET (req, res, next) {
-  var id = req.swagger.params['id'].value;
-  var source = req.swagger.params['source'].value;
-  Default.foodBrandedId_phpGET(id,source)
-    .then(function (response) {
-      utils.writeJson(res, response);
-    })
-    .catch(function (response) {
-      utils.writeJson(res, response);
-    });
-};
-
 module.exports.foodBrandedName_phpGET = function foodBrandedName_phpGET (req, res, next) {
   var name = req.swagger.params['name'].value;
   var limit = req.swagger.params['limit'].value;
