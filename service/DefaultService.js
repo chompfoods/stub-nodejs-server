@@ -14,12 +14,35 @@ exports.foodBrandedBarcode_phpGET = function(code) {
     examples['application/json'] = {
   "items" : [ {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -72,7 +95,7 @@ exports.foodBrandedBarcode_phpGET = function(code) {
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -90,29 +113,32 @@ exports.foodBrandedBarcode_phpGET = function(code) {
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -120,47 +146,38 @@ exports.foodBrandedBarcode_phpGET = function(code) {
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -213,7 +230,7 @@ exports.foodBrandedBarcode_phpGET = function(code) {
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -231,29 +248,32 @@ exports.foodBrandedBarcode_phpGET = function(code) {
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -261,38 +281,6 @@ exports.foodBrandedBarcode_phpGET = function(code) {
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
 };
@@ -319,12 +307,35 @@ exports.foodBrandedId_phpGET = function(id,source) {
     examples['application/json'] = {
   "items" : [ {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -377,7 +388,7 @@ exports.foodBrandedId_phpGET = function(id,source) {
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -395,29 +406,32 @@ exports.foodBrandedId_phpGET = function(id,source) {
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -425,47 +439,38 @@ exports.foodBrandedId_phpGET = function(id,source) {
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -518,7 +523,7 @@ exports.foodBrandedId_phpGET = function(id,source) {
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -536,29 +541,32 @@ exports.foodBrandedId_phpGET = function(id,source) {
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -566,38 +574,6 @@ exports.foodBrandedId_phpGET = function(id,source) {
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
 };
@@ -625,12 +601,35 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
     examples['application/json'] = {
   "items" : [ {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -683,7 +682,7 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -701,29 +700,32 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -731,47 +733,38 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -824,7 +817,7 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -842,29 +835,32 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -872,38 +868,6 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
 };
@@ -942,12 +906,35 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
     examples['application/json'] = {
   "items" : [ {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -1000,7 +987,7 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -1018,29 +1005,32 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -1048,47 +1038,38 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   }, {
     "minerals" : [ "minerals", "minerals" ],
+    "package" : {
+      "quantity" : 0,
+      "size" : "size"
+    },
     "keywords" : [ "keywords", "keywords" ],
     "country_details" : {
-      "english_speaking" : 6,
-      "non_english_speaking" : 8
+      "english_speaking" : 4,
+      "non_english_speaking" : 5
     },
+    "traces" : [ "traces", "traces" ],
     "description" : "description",
+    "diet_flags" : [ {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    }, {
+      "ingredient" : "ingredient",
+      "is_allergen" : true,
+      "ingredient_description" : "ingredient_description",
+      "compatibility_level" : 1,
+      "is_compatible" : "is_compatible",
+      "diet_label" : "diet_label",
+      "compatibility_description" : "compatibility_description"
+    } ],
+    "countries" : [ "countries", "countries" ],
     "has_english_ingredients" : true,
     "palm_oil_ingredients" : [ "palm_oil_ingredients", "palm_oil_ingredients" ],
     "serving" : {
@@ -1141,7 +1122,7 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
         "footnote" : "footnote"
       } ]
     },
-    "protein_conversion_factor" : 1.4894159098541704,
+    "allergens" : [ "allergens", "allergens" ],
     "packaging_photos" : {
       "nutrition" : {
         "small" : "small",
@@ -1159,29 +1140,32 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
         "display" : "display"
       }
     },
+    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
+    "vitamins" : [ "vitamins", "vitamins" ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
+    "name" : "name",
     "ingredients" : {
       "chomp" : "chomp",
       "usda" : "usda"
@@ -1189,38 +1173,6 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
     "categories" : [ "categories", "categories" ],
     "barcode" : "barcode",
     "brand" : "brand",
-    "package" : {
-      "quantity" : 0,
-      "size" : "size"
-    },
-    "traces" : [ "traces", "traces" ],
-    "diet_flags" : [ {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    }, {
-      "ingredient" : "ingredient",
-      "is_allergen" : true,
-      "ingredient_description" : "ingredient_description",
-      "compatibility_level" : 9,
-      "is_compatible" : "is_compatible",
-      "diet_label" : "diet_label",
-      "compatibility_description" : "compatibility_description"
-    } ],
-    "countries" : [ "countries", "countries" ],
-    "allergens" : [ "allergens", "allergens" ],
-    "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
-    },
-    "ingredient_list" : [ "ingredient_list", "ingredient_list" ],
-    "vitamins" : [ "vitamins", "vitamins" ],
-    "name" : "name",
     "brand_list" : [ "brand_list", "brand_list" ]
   } ]
 };
@@ -1248,45 +1200,45 @@ exports.foodIngredientSearch_phpGET = function(find,list,raw,limit) {
     var examples = {};
     examples['application/json'] = {
   "items" : [ {
-    "protein_conversion_factor" : 0.8008281904610115,
+    "protein_conversion_factor" : 5.962133916683182,
     "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
+      "carbohydrate_value" : 1.4658129805029452,
+      "protein_value" : 0.8008281904610115,
+      "fat_value" : 6.027456183070403
     },
     "components" : [ {
-      "data_points" : 5,
-      "pct_weight" : 6.027456183070403,
-      "gram_weight" : 1.4658129805029452,
+      "data_points" : 7,
+      "pct_weight" : 5.637376656633329,
+      "gram_weight" : 2.3021358869347655,
       "name" : "name",
       "is_refuse" : true
     }, {
-      "data_points" : 5,
-      "pct_weight" : 6.027456183070403,
-      "gram_weight" : 1.4658129805029452,
+      "data_points" : 7,
+      "pct_weight" : 5.637376656633329,
+      "gram_weight" : 2.3021358869347655,
       "name" : "name",
       "is_refuse" : true
     } ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
@@ -1323,60 +1275,60 @@ exports.foodIngredientSearch_phpGET = function(find,list,raw,limit) {
       } ]
     },
     "portions" : [ {
-      "data_points" : 2,
+      "data_points" : 3,
       "modifier" : "modifier",
-      "gram_weight" : 5.637376656633329,
+      "gram_weight" : 9.301444243932576,
       "measurement_unit" : "measurement_unit",
       "description" : "description",
       "footnote" : "footnote"
     }, {
-      "data_points" : 2,
+      "data_points" : 3,
       "modifier" : "modifier",
-      "gram_weight" : 5.637376656633329,
+      "gram_weight" : 9.301444243932576,
       "measurement_unit" : "measurement_unit",
       "description" : "description",
       "footnote" : "footnote"
     } ]
   }, {
-    "protein_conversion_factor" : 0.8008281904610115,
+    "protein_conversion_factor" : 5.962133916683182,
     "calorie_conversion_factor" : {
-      "carbohydrate_value" : 1.0246457001441578,
-      "protein_value" : 7.386281948385884,
-      "fat_value" : 1.2315135367772556
+      "carbohydrate_value" : 1.4658129805029452,
+      "protein_value" : 0.8008281904610115,
+      "fat_value" : 6.027456183070403
     },
     "components" : [ {
-      "data_points" : 5,
-      "pct_weight" : 6.027456183070403,
-      "gram_weight" : 1.4658129805029452,
+      "data_points" : 7,
+      "pct_weight" : 5.637376656633329,
+      "gram_weight" : 2.3021358869347655,
       "name" : "name",
       "is_refuse" : true
     }, {
-      "data_points" : 5,
-      "pct_weight" : 6.027456183070403,
-      "gram_weight" : 1.4658129805029452,
+      "data_points" : 7,
+      "pct_weight" : 5.637376656633329,
+      "gram_weight" : 2.3021358869347655,
       "name" : "name",
       "is_refuse" : true
     } ],
     "diet_labels" : {
       "vegetarian" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 4,
+        "confidence" : 1,
         "name" : "name",
         "compatibility_level" : 1,
         "is_compatible" : true
       },
       "vegan" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 7,
+        "confidence" : 1,
         "name" : "name",
-        "compatibility_level" : 6,
+        "compatibility_level" : 7,
         "is_compatible" : true
       },
       "gluten_free" : {
         "confidence_description" : "confidence_description",
-        "confidence" : 9,
+        "confidence" : 7,
         "name" : "name",
-        "compatibility_level" : 5,
+        "compatibility_level" : 6,
         "is_compatible" : true
       }
     },
@@ -1413,16 +1365,16 @@ exports.foodIngredientSearch_phpGET = function(find,list,raw,limit) {
       } ]
     },
     "portions" : [ {
-      "data_points" : 2,
+      "data_points" : 3,
       "modifier" : "modifier",
-      "gram_weight" : 5.637376656633329,
+      "gram_weight" : 9.301444243932576,
       "measurement_unit" : "measurement_unit",
       "description" : "description",
       "footnote" : "footnote"
     }, {
-      "data_points" : 2,
+      "data_points" : 3,
       "modifier" : "modifier",
-      "gram_weight" : 5.637376656633329,
+      "gram_weight" : 9.301444243932576,
       "measurement_unit" : "measurement_unit",
       "description" : "description",
       "footnote" : "footnote"
