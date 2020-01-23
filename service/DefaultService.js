@@ -143,7 +143,6 @@ exports.foodBrandedBarcode_phpGET = function(code) {
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
@@ -285,7 +284,6 @@ exports.foodBrandedBarcode_phpGET = function(code) {
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
@@ -450,7 +448,6 @@ exports.foodBrandedId_phpGET = function(id,source) {
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
@@ -592,7 +589,6 @@ exports.foodBrandedId_phpGET = function(id,source) {
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
@@ -758,7 +754,6 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
@@ -900,7 +895,6 @@ exports.foodBrandedName_phpGET = function(name,limit,page) {
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
@@ -1077,7 +1071,6 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
@@ -1219,7 +1212,6 @@ exports.foodBrandedSearch_phpGET = function(allergen,brand,category,country,diet
       "compatibility_description" : "compatibility_description"
     } ],
     "countries" : [ "countries", "countries" ],
-    "footnote" : "footnote",
     "allergens" : [ "allergens", "allergens" ],
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 1.0246457001441578,
