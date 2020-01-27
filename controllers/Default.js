@@ -53,10 +53,9 @@ module.exports.foodBrandedSearch_phpGET = function foodBrandedSearch_phpGET (req
 
 module.exports.foodIngredientSearch_phpGET = function foodIngredientSearch_phpGET (req, res, next) {
   var find = req.swagger.params['find'].value;
-  var list = req.swagger.params['list'].value;
   var raw = req.swagger.params['raw'].value;
   var limit = req.swagger.params['limit'].value;
-  Default.foodIngredientSearch_phpGET(find,list,raw,limit)
+  Default.foodIngredientSearch_phpGET(find,raw,limit)
     .then(function (response) {
       utils.writeJson(res, response);
     })
