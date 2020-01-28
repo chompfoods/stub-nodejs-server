@@ -726,31 +726,7 @@ exports.foodIngredientSearch_phpGET = function(find,limit) {
       "name" : "name",
       "is_refuse" : true
     } ],
-    "diet_labels" : {
-      "vegetarian" : {
-        "confidence_description" : "confidence_description",
-        "confidence" : 9,
-        "name" : "name",
-        "compatibility_level" : 7,
-        "is_compatible" : true
-      },
-      "vegan" : {
-        "confidence_description" : "confidence_description",
-        "confidence" : 2,
-        "name" : "name",
-        "compatibility_level" : 5,
-        "is_compatible" : true
-      },
-      "gluten_free" : {
-        "confidence_description" : "confidence_description",
-        "confidence" : 2,
-        "name" : "name",
-        "compatibility_level" : 3,
-        "is_compatible" : true
-      }
-    },
     "name" : "name",
-    "description" : "description",
     "categories" : [ "categories", "categories" ],
     "footnote" : "footnote",
     "common_name" : "common_name",
@@ -812,31 +788,7 @@ exports.foodIngredientSearch_phpGET = function(find,limit) {
       "name" : "name",
       "is_refuse" : true
     } ],
-    "diet_labels" : {
-      "vegetarian" : {
-        "confidence_description" : "confidence_description",
-        "confidence" : 9,
-        "name" : "name",
-        "compatibility_level" : 7,
-        "is_compatible" : true
-      },
-      "vegan" : {
-        "confidence_description" : "confidence_description",
-        "confidence" : 2,
-        "name" : "name",
-        "compatibility_level" : 5,
-        "is_compatible" : true
-      },
-      "gluten_free" : {
-        "confidence_description" : "confidence_description",
-        "confidence" : 2,
-        "name" : "name",
-        "compatibility_level" : 3,
-        "is_compatible" : true
-      }
-    },
     "name" : "name",
-    "description" : "description",
     "categories" : [ "categories", "categories" ],
     "footnote" : "footnote",
     "common_name" : "common_name",
