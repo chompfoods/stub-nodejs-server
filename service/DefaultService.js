@@ -708,6 +708,7 @@ exports.foodIngredientSearch_phpGET = function(find,limit) {
     examples['application/json'] = {
   "items" : [ {
     "protein_conversion_factor" : 2.027123023002322,
+    "score" : "score",
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 3.616076749251911,
       "protein_value" : 7.061401241503109,
@@ -727,6 +728,7 @@ exports.foodIngredientSearch_phpGET = function(find,limit) {
       "is_refuse" : true
     } ],
     "name" : "name",
+    "search_term" : "search_term",
     "categories" : [ "categories", "categories" ],
     "footnote" : "footnote",
     "common_name" : "common_name",
@@ -770,6 +772,7 @@ exports.foodIngredientSearch_phpGET = function(find,limit) {
     } ]
   }, {
     "protein_conversion_factor" : 2.027123023002322,
+    "score" : "score",
     "calorie_conversion_factor" : {
       "carbohydrate_value" : 3.616076749251911,
       "protein_value" : 7.061401241503109,
@@ -789,6 +792,7 @@ exports.foodIngredientSearch_phpGET = function(find,limit) {
       "is_refuse" : true
     } ],
     "name" : "name",
+    "search_term" : "search_term",
     "categories" : [ "categories", "categories" ],
     "footnote" : "footnote",
     "common_name" : "common_name",
