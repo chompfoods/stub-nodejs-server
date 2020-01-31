@@ -14,22 +14,11 @@ module.exports.foodBrandedBarcode_phpGET = function foodBrandedBarcode_phpGET (r
     });
 };
 
-module.exports.foodBrandedId_phpGET = function foodBrandedId_phpGET (req, res, next) {
-  var id = req.swagger.params['id'].value;
-  var source = req.swagger.params['source'].value;
-  Default.foodBrandedId_phpGET(id,source)
-    .then(function (response) {
-      utils.writeJson(res, response);
-    })
-    .catch(function (response) {
-      utils.writeJson(res, response);
-    });
-};
-
 module.exports.foodBrandedName_phpGET = function foodBrandedName_phpGET (req, res, next) {
   var name = req.swagger.params['name'].value;
   var limit = req.swagger.params['limit'].value;
-  Default.foodBrandedName_phpGET(name,limit)
+  var page = req.swagger.params['page'].value;
+  Default.foodBrandedName_phpGET(name,limit,page)
     .then(function (response) {
       utils.writeJson(res, response);
     })
@@ -62,12 +51,10 @@ module.exports.foodBrandedSearch_phpGET = function foodBrandedSearch_phpGET (req
     });
 };
 
-module.exports.ingredientSearch_phpGET = function ingredientSearch_phpGET (req, res, next) {
+module.exports.foodIngredientSearch_phpGET = function foodIngredientSearch_phpGET (req, res, next) {
   var find = req.swagger.params['find'].value;
-  var list = req.swagger.params['list'].value;
-  var raw = req.swagger.params['raw'].value;
   var limit = req.swagger.params['limit'].value;
-  Default.ingredientSearch_phpGET(find,list,raw,limit)
+  Default.foodIngredientSearch_phpGET(find,limit)
     .then(function (response) {
       utils.writeJson(res, response);
     })
