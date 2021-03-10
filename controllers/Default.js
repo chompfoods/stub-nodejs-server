@@ -3,9 +3,8 @@
 var utils = require('../utils/writer.js');
 var Default = require('../service/DefaultService');
 
-module.exports.foodBrandedBarcode_phpGET = function foodBrandedBarcode_phpGET (req, res, next) {
-  var code = req.swagger.params['code'].value;
-  Default.foodBrandedBarcode_phpGET(code)
+module.exports.foodBrandedBarcode_phpGET = function foodBrandedBarcode_phpGET (req, res, next, code, user_id) {
+  Default.foodBrandedBarcode_phpGET(code, user_id)
     .then(function (response) {
       utils.writeJson(res, response);
     })
@@ -14,11 +13,8 @@ module.exports.foodBrandedBarcode_phpGET = function foodBrandedBarcode_phpGET (r
     });
 };
 
-module.exports.foodBrandedName_phpGET = function foodBrandedName_phpGET (req, res, next) {
-  var name = req.swagger.params['name'].value;
-  var limit = req.swagger.params['limit'].value;
-  var page = req.swagger.params['page'].value;
-  Default.foodBrandedName_phpGET(name,limit,page)
+module.exports.foodBrandedName_phpGET = function foodBrandedName_phpGET (req, res, next, name, limit, page, user_id) {
+  Default.foodBrandedName_phpGET(name, limit, page, user_id)
     .then(function (response) {
       utils.writeJson(res, response);
     })
@@ -27,22 +23,8 @@ module.exports.foodBrandedName_phpGET = function foodBrandedName_phpGET (req, re
     });
 };
 
-module.exports.foodBrandedSearch_phpGET = function foodBrandedSearch_phpGET (req, res, next) {
-  var allergen = req.swagger.params['allergen'].value;
-  var brand = req.swagger.params['brand'].value;
-  var category = req.swagger.params['category'].value;
-  var country = req.swagger.params['country'].value;
-  var diet = req.swagger.params['diet'].value;
-  var ingredient = req.swagger.params['ingredient'].value;
-  var keyword = req.swagger.params['keyword'].value;
-  var mineral = req.swagger.params['mineral'].value;
-  var nutrient = req.swagger.params['nutrient'].value;
-  var palm_oil = req.swagger.params['palm_oil'].value;
-  var trace = req.swagger.params['trace'].value;
-  var vitamin = req.swagger.params['vitamin'].value;
-  var limit = req.swagger.params['limit'].value;
-  var page = req.swagger.params['page'].value;
-  Default.foodBrandedSearch_phpGET(allergen,brand,category,country,diet,ingredient,keyword,mineral,nutrient,palm_oil,trace,vitamin,limit,page)
+module.exports.foodBrandedSearch_phpGET = function foodBrandedSearch_phpGET (req, res, next, allergen, brand, category, country, diet, ingredient, keyword, mineral, nutrient, palm_oil, trace, vitamin, limit, page, user_id) {
+  Default.foodBrandedSearch_phpGET(allergen, brand, category, country, diet, ingredient, keyword, mineral, nutrient, palm_oil, trace, vitamin, limit, page, user_id)
     .then(function (response) {
       utils.writeJson(res, response);
     })
@@ -51,10 +33,48 @@ module.exports.foodBrandedSearch_phpGET = function foodBrandedSearch_phpGET (req
     });
 };
 
-module.exports.foodIngredientSearch_phpGET = function foodIngredientSearch_phpGET (req, res, next) {
-  var find = req.swagger.params['find'].value;
-  var limit = req.swagger.params['limit'].value;
-  Default.foodIngredientSearch_phpGET(find,limit)
+module.exports.foodIngredientSearch_phpGET = function foodIngredientSearch_phpGET (req, res, next, find, limit, user_id) {
+  Default.foodIngredientSearch_phpGET(find, limit, user_id)
+    .then(function (response) {
+      utils.writeJson(res, response);
+    })
+    .catch(function (response) {
+      utils.writeJson(res, response);
+    });
+};
+
+module.exports.recipeId_phpGET = function recipeId_phpGET (req, res, next, id, user_id) {
+  Default.recipeId_phpGET(id, user_id)
+    .then(function (response) {
+      utils.writeJson(res, response);
+    })
+    .catch(function (response) {
+      utils.writeJson(res, response);
+    });
+};
+
+module.exports.recipeIngredient_phpGET = function recipeIngredient_phpGET (req, res, next, list, limit, page, user_id) {
+  Default.recipeIngredient_phpGET(list, limit, page, user_id)
+    .then(function (response) {
+      utils.writeJson(res, response);
+    })
+    .catch(function (response) {
+      utils.writeJson(res, response);
+    });
+};
+
+module.exports.recipeRandom_phpGET = function recipeRandom_phpGET (req, res, next, limit, user_id) {
+  Default.recipeRandom_phpGET(limit, user_id)
+    .then(function (response) {
+      utils.writeJson(res, response);
+    })
+    .catch(function (response) {
+      utils.writeJson(res, response);
+    });
+};
+
+module.exports.recipeSearch_phpGET = function recipeSearch_phpGET (req, res, next, title, excluded_cuisine, included_cuisine, excluded_ingredient, included_ingredient, nutrients_required, limit, page, user_id) {
+  Default.recipeSearch_phpGET(title, excluded_cuisine, included_cuisine, excluded_ingredient, included_ingredient, nutrients_required, limit, page, user_id)
     .then(function (response) {
       utils.writeJson(res, response);
     })
